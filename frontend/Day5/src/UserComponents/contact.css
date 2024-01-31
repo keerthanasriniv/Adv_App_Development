@@ -1,0 +1,70 @@
+/* Contact.css */
+.contactbg
+{
+  /* background-image:url("../login.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top:-670px;
+  margin-bottom:175px;
+  /* background-color:wheat */
+}
+
+.contactimage-side {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contactimg {
+  width: 80%;
+  height: 400px;
+  margin-left:100px;
+}
+
+.form-side {
+  flex: 1;
+  margin-left:-100px;
+  margin-bottom: 50px;
+}
+
+.contactform {
+  max-width: 400px; /* Adjust the width according to your design */
+  margin: 0 auto;
+  /* background-color:wheat */
+}
+
+.contactlabel {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.invalid {
+  border: 1px solid red; /* Adjust the style for invalid input */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.buttonc {
+  background-color: #4CAF50;
+  color:black;
+  padding: 10px 15px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contacth1
+{
+  margin-left:170px;
+  color:black;
+}
+
+/* Additional styling for Navbar if needed */
