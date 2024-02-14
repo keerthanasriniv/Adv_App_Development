@@ -1,0 +1,50 @@
+.venuebg
+{
+  background: rgb(165,167,181);
+background: radial-gradient(circle, rgba(165,167,181,1) 0%, rgba(169,148,165,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.grid-containerv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    max-width: 100px;
+    margin-top: -600px;
+    margin-left: 50px;
+    margin-bottom: -100px;
+  }
+  
+  .grid-itemv {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .grid-itemv:hover {
+    transform: scale(1.05);
+  }
+  
+  .gridimgv {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-bottom: 1px solid #ddd; /* Optional: Add a border between image and description */
+  }
+  
+  .gridpv {
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  /* Add this rule to rotate the hovered item */
+  .grid-itemv.hovered {
+    transform: rotate(10deg); /* Adjust the rotation angle as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+  .pricegridv
+  {
+    bgcolor:rgba(95, 95, 223, 0)
+  }
+  
+     

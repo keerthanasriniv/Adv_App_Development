@@ -1,0 +1,77 @@
+/* booking.css */
+
+/* Body background */
+.bookingbg1 {
+  background: rgb(165,167,181);
+  background: radial-gradient(circle, rgba(165,167,181,1) 0%, rgba(169,148,165,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Heading styles */
+.bookingh1 {
+  margin-top: -650px;
+  text-align: center;
+}
+
+/* Form styles */
+.bookingform1 {
+  /* margin-top:-500px; */
+  width:50%;
+  margin-left:300px;
+}
+
+.bookinginput1 {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 40%;
+}
+
+.bookingbutton {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.bookingbutton:hover {
+  background-color: #0056b3;
+}
+
+/* List styles */
+.bookingul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bookingli {
+  /* margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px; */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  padding: 10px;
+  /* background-color: #ffffff; */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bookingli {
+  margin-left: 10px;
+}
+.bookingedit
+{
+  margin-left: 10px;
+  height:50px;
+
+}
+.bookingdelete
+{
+  margin-left: 10px;
+  height:50px;
+}

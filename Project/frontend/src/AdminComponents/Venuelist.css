@@ -1,0 +1,72 @@
+.venuelistbg {
+    background: rgb(165,167,181);
+    background: radial-gradient(circle, rgba(165,167,181,1) 0%, rgba(169,148,165,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .venue-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -700px;
+    margin-bottom: 180px;
+  }
+  
+  .venue-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .venue-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the border-radius applies to the image */
+  }
+  
+  .venue-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .venue-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .venue-item {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .venue-description {
+    padding: 10px;
+    text-align: center;
+    color:black;
+  }
+  
+  .venue-item .venue-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .venue-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .venue-buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  .venuelisth1 {
+    color:black;
+  }
+  

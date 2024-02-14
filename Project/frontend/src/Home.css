@@ -1,0 +1,218 @@
+/* Home.css */
+
+/* Container */
+.homebg
+{
+  background: rgb(165,167,181);
+  background: radial-gradient(circle, rgba(165,167,181,1) 0%, rgba(169,148,165,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1270px;
+      
+}
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+/* Form */
+.register-form {
+  width: 300px; /* Adjust width as needed */
+  background: rgb(165, 167, 181);
+  background: radial-gradient(
+    circle,
+    rgba(165, 167, 181, 1) 0%,
+    rgba(169, 148, 165, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left:30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+}
+
+/* Logo */
+.signimg {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  margin: 0 auto; /* Center horizontally */
+  display: block;
+}
+
+/* Heading */
+.sign {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+  color: #333; /* Change color as needed */
+}
+
+/* Label */
+.lab {
+  font-weight: bold;
+}
+
+/* Input fields */
+.username-input,
+.email-input,
+.password-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+  border: 1px solid #ccc; /* Change color as needed */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.regi {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Change color as needed */
+  color: #fff; /* Change color as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Submit button on hover */
+.regi:hover {
+  background-color: #0056b3; /* Change color as needed */
+}
+
+/* Link */
+.login-link {
+  text-align: center;
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+/* Link color */
+.login-link a {
+  color: #007bff; /* Change color as needed */
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Popup content */
+.popup p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Popup button */
+.popup button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Change color as needed */
+  color: #fff; /* Change color as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+/* Popup button on hover */
+.popup button:hover {
+  background-color: #0056b3; /* Change color as needed */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    fallback for old browsers
+    background: #6a11cb;
+  
+  
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+   
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  } */ 
+
+
+
+/* 
+  body {
+    background: #6a11cb;
+  
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  } */
+
+  /* App.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    background-color: #3498db
+   */
+
+
+
+
+
+
+
